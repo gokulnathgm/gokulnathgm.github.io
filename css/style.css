@@ -1,0 +1,107 @@
+@font-face {
+	font-family: Gotham;
+	src: url('../fonts/GOTHAMHTF-LIGHT_0.OTF');
+}
+
+@font-face {
+  font-family: Gotham-Medium;
+  src: url('../fonts/GOTHAMHTF-MEDIUM_0.OTF');
+}
+
+
+body {
+	font-family: Gotham;
+}
+
+.navbar {
+	min-height: 100px;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	font-size: 32px;
+}
+
+.navbar-default .navbar-right {
+	color: #222b5b;
+}
+
+.navbar-default .navbar-brand {
+	color: #222b5b;
+}
+
+.navdiv {
+	padding: 25px 30px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #222b5b;
+}
+
+.cover-image {
+  background-image: url('../assets/building.jpg');
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.main-img-div {
+  /*background-image: url('../assets/pic.png');
+  background-size: cover;*/
+  height: 78.6vh;
+  width: 75%;
+  position: absolute;
+  top: 37%;
+  left: 13%
+}
+
+.main-img {
+  background-image: url('../assets/gokul.jpg');
+  background-size: cover;
+  width: 50%;
+  height: 78.6vh;
+}
+
+.info {
+  width: 50%;
+  height: 78.6vh;
+  background-color: #f1f1f1;
+}
+
+.main-content {
+  margin-left: 80px;
+  margin-top: 90px;
+  color: #222b5b;
+}
+
+.gokul {
+  font-family: Gotham-Medium;
+  font-size: 28px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.phone {
+  font-family: Gotham-Medium;
+  margin-top: 20px
+}
+
+.email {
+  font-family: Gotham-Medium;
+  margin-top: 20px
+}
+
+.address {
+  font-family: Gotham-Medium;
+  margin-top: 20px
+}
+
+.dob {
+  font-family: Gotham-Medium;
+  margin-top: 20px
+}
