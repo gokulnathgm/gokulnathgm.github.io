@@ -51,21 +51,19 @@ body {
   /*background-image: url('../assets/pic.png');
   background-size: cover;*/
   height: 78.6vh;
-  width: 75%;
   position: absolute;
-  top: 30%;
-  left: 13%
+  top: 20%;
 }
 
 .main-img {
   background-image: url('../assets/gokul.jpg');
   background-size: cover;
-  width: 50%;
+  /*width: 50%;*/
   height: 70vh;
 }
 
 .info {
-  width: 50%;
+  /*width: 50%;*/
   height: 70vh;
   background-color: #f1f1f1;
 }
