@@ -13,39 +13,93 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Gokul Nath</a>
       </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">EXPERIENCE</a></li>
-        <li><a href="#">EDUCATION</a></li>
-        <li><a href="#">SKILL</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
+      <div id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#skill">SKILL</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
-  <div class="container-fluid">
-    <div class="cover-image">
-    </div>
-
-    <div class="col-sm-10 col-sm-offset-1 main-img-div">
-      <div class="col-sm-6 main-img">
+  <div>
+    <div class="container-fluid page1">
+      <div class="cover-image">
       </div>
 
-      <div class="col-sm-6 info">
-        <div class="main-content">
-          <div class="gokul">Gokul Nath</div>
-          <div class="title">SOFTWARE DEVELOPER</div>
-          <div class="phone">Phone:</div>
-          <div class="phone-val">+91 9447707638</div>
-          <div class="email">Email:</div>
-          <div class="email-val">gokulnathgm@gmail.com</div>
-          <div class="address">Address:</div>
-          <div class="address-val1">Gokulam, Madavoor</div>
-          <div class="address-val2">Calicut, Kerala 673585</div>
-          <div class="dob">Date of Birth:</div>
-          <div class="dob-val">12th July, 1994</div>
+      <div class="col-sm-10 col-sm-offset-1 main-img-div">
+        <div class="col-sm-6 main-img">
         </div>
 
+        <div class="col-sm-6 info">
+          <div class="main-content">
+            <div class="gokul">Gokul Nath</div>
+            <div class="title">SOFTWARE DEVELOPER</div>
+            <div class="phone">Phone:</div>
+            <div class="phone-val">+91 9447707638</div>
+            <div class="email">Email:</div>
+            <div class="email-val">gokulnathgm@gmail.com</div>
+            <div class="address">Address:</div>
+            <div class="address-val1">Gokulam, Madavoor</div>
+            <div class="address-val2">Calicut, Kerala 673585</div>
+            <div class="dob">Date of Birth:</div>
+            <div class="dob-val">12th July, 1994</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="experience" class="container-fluid experience">
+      <div class="page-header">
+        <h3>EXPERIENCE</h3>
+      </div>
+    </div>
+    <div id="education" class="container-fluid education">
+      <div class="page-header">
+        <h3>EDUCATION</h3>
+      </div>
+    </div>
+    <div id="skill" class="container-fluid skill">
+      <div class="page-header">
+        <h3>SKILL</h3>
+      </div>
+    </div>
+    <div id="contact" class="container-fluid contact">
+      <div class="page-header">
+        <h3>CONTACT</h3>
       </div>
     </div>
   </div>
+  <script>
+    $(document).ready(function(){
+      alert('Hey there! This page is under construction.')
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
 </body>
 </html>

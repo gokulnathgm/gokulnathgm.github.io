@@ -40,6 +40,10 @@ body {
   color: #222b5b;
 }
 
+.page1 {
+  height: 100vh
+}
+
 .cover-image {
   background-image: url('../assets/building.jpg');
   background-size: cover;
@@ -52,11 +56,11 @@ body {
   background-size: cover;*/
   height: 78.6vh;
   position: absolute;
-  top: 20%;
+  top: 30%;
 }
 
 .main-img {
-  background-image: url('../assets/gokul.jpg');
+  background-image: url('../assets/pic.png');
   background-size: cover;
   /*width: 50%;*/
   height: 70vh;
@@ -102,4 +106,45 @@ body {
 .dob {
   font-family: Gotham-Medium;
   margin-top: 20px
+}
+
+.experience {
+  height: 100vh;
+}
+
+.education {
+  height: 100vh;
+}
+
+.skill {
+  height: 100vh;
+}
+
+.contact {
+  height: 100vh;
+}
+
+.experience {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.education {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.skill {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.page-header {
+  font-family: Gotham-Medium;
+  color: #222b5b;
 }
