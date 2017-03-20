@@ -195,3 +195,25 @@ body {
   text-align: left;
   padding-left: 200px;
 }
+
+.social {
+  background-color: #222b5b;
+  text-align: center;
+  height: 82vh;
+}
+
+.fa {
+  color: #ffffff;
+  padding-top: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 28px;
+}
+
+.soc {
+  color: #222b5b;
+  padding-right: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
