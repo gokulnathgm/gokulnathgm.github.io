@@ -1,10 +1,4 @@
   $(document).ready(function(){
-      // alert('Hey there! This page is under construction.');
-      $('.progress .progress-bar').css("width",
-        function() {
-          return $(this).attr("aria-valuenow") + "%";
-        }
-        )
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 50});   
 
