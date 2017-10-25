@@ -61,10 +61,11 @@ body {
 }
 
 .main-img {
-  background-image: url('../assets/gokul.jpg');
+  background-image: url('../assets/goks.jpg');
   background-size: cover;
   /*width: 50%;*/
   height: 70vh;
+  background-position: 0% 50%;
 }
 
 .info {
